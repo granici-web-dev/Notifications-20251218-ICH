@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 32px;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border: 2px solid #000;
+  padding: 16px;
+  border-radius: 8px;
+  gap: 16px;
+  margin-bottom: 48px;
+
+  input {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #000;
+  }
+}
+
+.formTitle {
+  font-size: 24px;
+}
+
+.createBtn {
+  background-color: #2EB9E7;
+  color: #fff;
+  border: none !important;
+  padding: 12px !important;
+  cursor: pointer;
+}
+
+.createBtn:hover{
+  background-color: #1586ac;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  gap: 16px;
+
+  button {
+    background-color: #2EB9E7;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #1586ac;
+  }
+}
+
+.notification {
+  background-color: #3FC53F;
+  max-width: 400px;
+  border-radius: 12px;
+  display: flex;
+  padding: 24px;
+  gap: 16px;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: 5px 5px 10px #afafaf;
+}
+
+.notificationIconContainer {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-flex;
+}
+
+.notificationIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.notificationContent {
+  color: #fff;
+}
+
+.notificationTitle {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.notificationDescription {
+  font-size: 20px;
+}
+
+.notificationIconClose {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
